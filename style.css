@@ -1,73 +1,53 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	margin-block-start: 0em;
-	margin-block-end: 0em;
-	font-weight: lighter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: lighter;
     font-family: BOG;
     color: rgba(255, 255, 255, 0.78);
-    
 }
 @font-face{
     font-family:'BOG';
     src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.eot');
-    src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.eot?#iefix') format('embedded-opentype'),
-    url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.woff2') format('woff2'),
-    url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.woff') format('woff'),
-    url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.ttf') format('truetype'),
-    url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.svg#BOG-Light') format('svg');
+    src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.eot?#iefix') format('embedded-opentype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.woff') format('woff'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Light.svg#BOG-Light') format('svg');
     font-weight:300;
     font-style:normal;
     font-display:swap;
 }
-
-
-    @font-face{
-        font-family:'MarkGEO';
-        src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.eot');
-        src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.woff') format('woff'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.svg#MarkGEO-Regular') format('svg'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.eot?#iefix') format('embedded-opentype');
-        font-weight:normal;
-        font-style:normal;
-        font-display:swap;
-    }
-    
-    @font-face{
-        font-family:'MarkGEOCAPS';
-        src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.eot');
-        src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.woff') format('woff'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.svg#MarkGEOCAPS-Light') format('svg'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.eot?#iefix') format('embedded-opentype');
-        font-weight:300;
-        font-style:normal;
-        font-display:swap;
-    }
-    
-    @font-face{
-        font-family:'BOG Headline';
-        src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.eot');
-        src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.eot?#iefix') format('embedded-opentype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.woff') format('woff'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.svg#BOG-Headline-Medium') format('svg');
-        font-weight:500;
-        font-style:normal;
-        font-display:swap;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-:root{
---main-color:#091a2b;
+@font-face{
+    font-family:'MarkGEO';
+    src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.eot');
+    src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.woff') format('woff'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.svg#MarkGEO-Regular') format('svg'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEO-Regular/MarkGEO-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
 }
-
-
+@font-face{
+    font-family:'MarkGEOCAPS';
+    src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.eot');
+    src:url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.woff') format('woff'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.svg#MarkGEOCAPS-Light') format('svg'), url('https://webstatic.bog.ge/fonts/markgeo/MarkGEOCAPS-Light/MarkGEOCAPS-Light.eot?#iefix') format('embedded-opentype');
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+}
+@font-face{
+    font-family:'BOG Headline';
+    src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.eot');
+    src:url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.eot?#iefix') format('embedded-opentype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.woff2') format('woff2'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.woff') format('woff'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.ttf') format('truetype'), url('https://webstatic.bog.ge/fonts/BOG/BOG-Headline-Medium.svg#BOG-Headline-Medium') format('svg');
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+}
+:root{
+    --main-color:#091a2b;
+}
 .container {
     width: calc(100vw - 2 * 28px);
     margin: auto;
-    height: var(--height);
     box-sizing: border-box;
     padding-right: var(--header-content-padding-right, 0);
     justify-content: space-between;
@@ -76,14 +56,12 @@
 }
 .header-section-top{
     background-color: var(--main-color);
-
 }
 .header-top{
     height: 78px;
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
 }
 .logo {
     display: flex;
@@ -93,9 +71,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 8px;
-
 }
-
 .header-top img{
     width: 121.09px;
     height: 37.55px;
@@ -106,7 +82,7 @@
 }
 nav ul {
     display: flex;
-	flex-direction: row;
+    flex-direction: row;
     font-size: 14px;
 }
 nav ul li{
@@ -115,10 +91,9 @@ nav ul li{
 .user-info{
     box-sizing: border-box;
     background-color: #FB8D04;
-   width: 32px;
+    width: 32px;
     border-radius: 50%;
     padding: 8px;
-
 }
 .internetbank{
     margin: 0px 12px 0px 6px;
@@ -157,13 +132,10 @@ nav ul li{
     align-items: center;
     justify-content: center;
     font-size: 13px;
-  
-
 }
 .solo-offer span{
     font-family: "MarkGEOCAPS",sans-serif;
     font-weight: bold;
-
 }
 .header-bottom nav ul {
     margin-left: 0px;
@@ -173,20 +145,18 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-items: flex-start;
-
 }
 .header-section-bottom{
     background-color: #2B3A48;
-
+    position: sticky;
+    top: 0;
 }
-
 .slider-section{
     background-color: var(--main-color);
 }
 .slider-section-main{
     height: 510.39px;
     padding: 64px;
-
 }
 h2{
     font-family:'BOG Headline';
@@ -195,7 +165,6 @@ h2{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .slider-image{
     height: 300px;
     border-radius: 12px;
@@ -205,8 +174,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    --background-overlay: linear-gradient(to bottom, rgba(43, 25, 25, 0.3), #2B1919);
-
+    background-image: linear-gradient(to bottom, rgba(43, 25, 25, 0.3), #2b1919),url(//ramad.bog.ge/s3/solo/images/a3dd4512-dc72-45cd-b93c-b96a8b050eb2.png);
 }
 .see-more{
     height: 32px;
@@ -225,13 +193,7 @@ h2{
     display: flex;
     align-items: center;
     color: #ffffff;
-
 }
-/* .slider-image img{
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-} */
 .slider-image span{
     position: absolute;
     font-size: 24px;
@@ -240,7 +202,6 @@ h2{
     font-weight: bold;
     margin: 0px 0px 16px;
     color: #ffffff;
-
 }
 .developers-section{
     background-color: var(--main-color);
@@ -259,10 +220,10 @@ h3{
 }
 .filters{
     width: 448px;
-
+    display:flex;
+    justify-content: flex-end;
 }
 .search{
-
     width: 208px;
     height: 40px;
     padding-left: 24px;
@@ -272,15 +233,14 @@ h3{
     color: #ffffff;
     font-family: "MarkGEO", sans-serif;
     border-width: 0px;
-
 }
 .input{
-display: flex;
-flex-grow: 1;
---caret-color:   #FB8D04;
-color: #646464;
-font-size: 12px;
-font-weight: 300;
+    display: flex;
+    flex-grow: 1;
+    --caret-color: #FB8D04;
+    color: #646464;
+    font-size: 12px;
+    font-weight: 300;
 }
 .body{
     display: flex;
@@ -305,19 +265,18 @@ font-weight: 300;
     justify-content: space-between;
     --section-background-color: #091a2b;
     font-family: "MarkGEO", sans-serif;
-
 }
 .filter-header{
+    background-color: #192635;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px;
     cursor: pointer;
-    border: 2px solid  rgba(255, 255, 255, 0.66);
-    border-radius: 4px;
-    width: 268px;
-
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    border-radius: 16px;
+    width: 100%;
 }
 .title{
     color: rgba(255, 255, 255, 0.66);
@@ -330,90 +289,74 @@ font-weight: 300;
     font-family: "BOG";
     font-stretch: normal;
     cursor: pointer;
-
 }
 .title span{
     color: rgba(255, 255, 255, 0.66);
     font-weight: 500;
-    font-size: 13px; 
+    font-size: 13px;
 }
-
 .icon{
     width: 12px;
     min-width: 12px;
     max-width: 12px;
     margin-left: 15px;
 }
-/* .filter-header :active{
-    
-} */
-
 .title {
     display: inline-block;
-  }
-  
-  .title .select-items {
+}
+.title .select-items {
     position: relative;
     cursor: pointer;
     display: inline-block;
     padding: 0px 50px 0px 0px;
-  }
-  
-  .title .select-items:after {
+}
+.title .select-items:after {
     position: absolute;
     content: "";
-    border-left: 1px solid #646464;
-    border-top: 1px solid #646464;
-    padding: 5px;
+    border-left: 2px solid #646464;
+    border-top: 2px solid #646464;
+    padding: 2px;
     right: 10px;
-    top: 20%;
     -moz-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
-  }
-  
-  .title .select-items:active:after {
+}
+.title .select-items:active:after {
     right: 8px;
     top: 21%;
-  }
- 
-  .title ul.items {
+}
+.title ul.items {
     padding: 2px;
     display: none;
     margin-top: 32px;
     border-top: none;
-  }
-  
-  .title ul.items li {
+}
+.title ul.items li {
     list-style: none;
     margin-bottom: 16px;
-  }
-  input[type='checkbox']{
-   accent-color: #FB8D04;
+}
+input[type='checkbox' i]{
+    accent-color: #FB8D04;
     margin-right: 10px;
     width: 16px;
     height: 16px;
-  }
-
-  input[type='checkbox']:checked:after {
-    color:white;
-  }
-  .title.visible .select-items {
+    background-color: #192635;
+}
+.title.visible .select-items {
     color:#646464;
-  }
-  
-  .title.visible .items {
+}
+.title.visible .items {
     display: block;
-  }
+}
 .main-section{
     display: flex;
     flex-direction: row;
 }
-  .house-section{
+.house-section{
     width: calc(100% - 268px);
-  }
+}
 .house-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -426,17 +369,13 @@ font-weight: 300;
     flex-direction: column;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid rgb(224, 224, 224);
-    width: 100%;
+    border: 1px solid #2b3a48;
     text-decoration: none;
-    /* position: relative; */
-
 }
 img{
     height: 160px;
     width: 100%;
     object-fit: cover;
-    
 }
 .house-title{
     margin-bottom: 12px;
@@ -467,23 +406,167 @@ p{
 h5{
     font-size: 14px;
     font-family: "BOG";
-color: #8b8b8b;
-
+    color: #8b8b8b;
 }
 .house span{
-font-size: 14px;
-font-family: "MarkGEO",sans-serif;
-color: #fb9517;
+    font-size: 14px;
+    font-family: "MarkGEO",sans-serif;
+    color: #fb9517;
 }
-
- /* @media screen and (max-width: 1296px) {
-	.container {
-		width: 90%;
-	}
+.items input[type='text']{
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+    padding-bottom:4px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:4px;
+    background-color: #1c2b3b;
+    width: 0%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 2px;
+}
+.line{
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 1px;
+    width: 2%;
+}
+.price-range{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.submit{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-color: #FB8D04;
+    margin-left: 8px;
+    border: none;
+}
+input, label {
+    cursor: pointer;
+}
+.radio{
+    height: 16px;
+    width: 16px;
+    background: #192635;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    accent-color: #fb8d04;
+    color: #646464;
+}
+.items input[type='radio']{
+    height: 16px;
+    width: 16px;
+    background: #192635;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #646464;
+}
+.select{
+    width: 50%;
+    height: 40px;
+    font-family: "MarkGEO",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #091a2b;
+}
+.footer{
+    background-color: var(--main-color);
+    padding-top: 48px;
+}
+.footer-items{
+    font-family: "MarkGEO",sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 24px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+.solo-logo{
+    width: 92px;
+    height: 28.54px;
+}
+h6{
+    font-family: "MarkGEO";
+    font-size: 14px;
+}
+.header-section-bottom :hover{
+    color: #ffffff;
+}
+.header-top :hover{
+    color: #FB8D04;
+}
+@media screen and (max-width: 1296px) {
+    .container {
+        width: 90%;
+   }
     .header-bottom{
         display: none;
-    }
+   }
     .header-top{
         display: none;
-    }
-} */
+   }
+}
+@media(max-width: 1190px){
+    .house-items{
+        grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media(max-width: 1050px) {
+    .house-items {
+        grid-template-columns: 1fr;
+   }
+    .house{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+   }
+    .house-title{
+        margin-right: 16px;
+   }
+    p{
+        margin-right: 16px;
+   }
+    h5{
+        margin-right: 16px;
+   }
+    h4{
+        margin-right: 16px;
+   }
+    img{
+        height: 110px;
+        width: 173px;
+   }
+    .see-more{
+        display: none;
+   }
+    @media(max-width: 780px){
+        .house-items {
+            width: 100%;
+       }
+        .house{
+            display: flex;
+            flex-direction: row-reverse;
+       }
+        .selects{
+            display: none;
+       }
+        .main-section{
+            justify-content: center;
+       }
+   }
+}
